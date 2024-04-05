@@ -883,9 +883,21 @@ section {
     width: 550px;
   }
 }
-
+/* .price-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+} */
 .price-info-hour {
   font-weight: bold;
   font-size: 18px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: block;
+}
+.howmany {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 12px;
 }
