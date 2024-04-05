@@ -238,7 +238,10 @@ section {
 
 @media (min-width: 530px) {
   .header__title-img {
-    width: 220px;
+    width: 400px;
+  }
+  .header__post-title {
+    font-size: 20px;
   }
 }
 @media (min-width: 1000px) {
@@ -256,14 +259,14 @@ section {
     font-size: 16px;
   }
   .header__title-img {
-    width: 250px;
+    width: 80%;
   }
 }
 
 @media (min-width: 1000px) {
   .header__lead-photo {
     display: block;
-    width: 45%;
+    width: 37.7%;
     margin: 0;
     padding: 0;
     /* display: none; */
@@ -278,13 +281,16 @@ section {
     justify-content: center;
     align-items: center;
     /* gap: 20px; */
-    padding: 10px 0;
+    padding: 5px 0;
     max-width: 1200px;
     margin: 0 auto;
   }
-  .header{
+  .header {
     margin-bottom: 0;
     padding-bottom: 0;
+  }
+  .header__post-title {
+    font-size: 18px;
   }
 }
 .title {
@@ -437,6 +443,7 @@ section {
   background-image: url(../img/fons/new.PNG);
   background-image: url(../img/fons/fon-flower.JPG);
   background-image: url(../676ED014-46EE-4794-B4DC-7FA6BF0DDC33.JPG);
+  background-image: url(../IMG_9937.JPG);
   background-position: center;
   background-size: cover;
   padding-top: 40px;
@@ -457,6 +464,27 @@ section {
   display: block;
   margin: 0 auto;
 }
+
+.top-line {
+  border-top: 0.5px solid #f7f7f5;
+}
+.course-program__title-img {
+  display: block;
+  width: 250px;
+  /* padding: 0 20px; */
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+@media (min-width: 400px) {
+  .course-program__title-img {
+    width: 300px;
+  }
+}
+@media (min-width: 500px) {
+  .course-program__title-img {
+    width: 350px;
+  }
+}
 @media (min-width: 767px) {
   .course-program__item {
     padding-top: 15px;
@@ -467,16 +495,9 @@ section {
   padding-left: 20px; */
     padding: 20px 70px;
   }
-}
-.top-line {
-  border-top: 0.5px solid #f7f7f5;
-}
-.course-program__title-img {
-  display: block;
-  width: 250px;
-  /* padding: 0 20px; */
-  margin: 0 auto;
-  margin-bottom: 30px;
+  .course-program__title-img {
+    width: 400px;
+  }
 }
 .course-program__triger {
   display: flex;
@@ -822,13 +843,17 @@ section {
     width: 40%;
   }
   .footer__item:not(:last-child) {
-  margin-bottom: 0;
-}
+    margin-bottom: 0;
+  }
 }
 @media (min-width: 1000px) {
   .footer__item {
     /* padding: 8px; */
     width: 20%;
+    padding: 0;
+  }
+  .footer__link {
+    padding: 7px;
   }
   .contacts__img {
     width: 30px;
@@ -849,4 +874,10 @@ section {
   font-size: 20px;
   text-decoration-line: underline;
   /* text-transform: uppercase; */
+}
+
+@media (min-width: 767px) {
+  .title-image {
+    width: 550px;
+  }
 }
